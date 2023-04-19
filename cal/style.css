@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+body{
+    min-width: 400px;
+    background: #e3f9ff;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #e3f9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ h1{
+    text-align: center;
+   padding-top: 60px;
+   font-size: 3em;
+
+
+}
+.calculatorbody{
+    background: #3a4452;
+    padding: 20px;
+    border-radius: 10px;
+}
+.calculatorbody form input {
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 20px;
+  
+
+}
+.calculatorbody form input:active{
+    transform: scale(0.9);
+    box-shadow: -3px -3px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+.display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    pointer-events: none;
+   background:rgba(0, 0, 0, 0.1);
+}
+.display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none !important;
+}
+
+.lastbtn{
+    
+    width: 145px !important;
+}
+.ac{
+    color: aqua !important;
+}
+/* social media */
+.socials{
+    width: 180px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .socials a{
+    text-decoration: none;
+
+  }
+  .socials a i {
+    font-size: 30px;
+    color: aqua;
+    text-shadow: aquamarine 0px 5px 15px;
+    transition: .1s ease-out;
+  }
+  .socials a i:hover{
+    transform: scale(1.5);
+  }
+  .follow-me{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
